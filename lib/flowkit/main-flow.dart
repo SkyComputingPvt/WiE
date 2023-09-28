@@ -1,16 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
-import 'dart:ui';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:myapp/utils.dart';
 
 class Scene extends StatelessWidget {
+  const Scene({super.key});
+
   @override
   Widget build(BuildContext context) {
     double baseWidth = 1792;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
-    return Container(
+    return SizedBox(
       width: double.infinity,
       child: Container(
         // mainflowRBP (184:14413)
@@ -22,7 +20,7 @@ class Scene extends StatelessWidget {
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Container(
+            SizedBox(
               // typestraightdashednoVh3 (184:14123)
               width: 48*fem,
               height: 48*fem,
@@ -35,7 +33,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typecurvedashednoCbT (184:14129)
               width: 48*fem,
               height: 48*fem,
@@ -48,7 +46,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typecurveupdashednoukm (184:14135)
               width: 48*fem,
               height: 48*fem,
@@ -61,7 +59,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typesnakedashedno2Kb (184:14142)
               width: 48*fem,
               height: 48*fem,
@@ -74,7 +72,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typesnakeupdashednoXn9 (184:14148)
               width: 48*fem,
               height: 48*fem,
@@ -87,7 +85,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typeuturndashedno2yo (184:14155)
               width: 48*fem,
               height: 48*fem,
@@ -100,7 +98,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typeuturnupdashednounh (184:14161)
               width: 48*fem,
               height: 48*fem,
@@ -113,7 +111,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typehookdashednoy1s (184:14168)
               width: 48*fem,
               height: 48*fem,
@@ -126,7 +124,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typehookupdashednos7F (184:14174)
               width: 48*fem,
               height: 48*fem,
@@ -139,7 +137,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typesplitdashednomiR (184:14181)
               width: 48*fem,
               height: 48*fem,
@@ -152,7 +150,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typeforkdashedno5j7 (184:14192)
               width: 48*fem,
               height: 48*fem,
@@ -165,7 +163,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typestraightdashedyesbhT (184:14270)
               width: 48*fem,
               height: 48*fem,
@@ -178,7 +176,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typecurvedashedyeshVb (184:14283)
               width: 48*fem,
               height: 48*fem,
@@ -191,7 +189,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typecurveupdashedyes1mB (184:14296)
               width: 48*fem,
               height: 48*fem,
@@ -204,7 +202,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typesnakedashedyesXUd (184:14309)
               width: 48*fem,
               height: 48*fem,
@@ -217,7 +215,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typesnakeupdashedyesEP3 (184:14322)
               width: 48*fem,
               height: 48*fem,
@@ -230,7 +228,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typeuturndashedyesYed (184:14335)
               width: 48*fem,
               height: 48*fem,
@@ -243,7 +241,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typeuturnupdashedyes3LV (184:14348)
               width: 48*fem,
               height: 48*fem,
@@ -256,7 +254,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typehookdashedyesYY9 (184:14361)
               width: 48*fem,
               height: 48*fem,
@@ -269,7 +267,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typehookupdashedyes3zh (184:14374)
               width: 48*fem,
               height: 48*fem,
@@ -282,7 +280,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typesplitdashedyesxbs (184:14387)
               width: 48*fem,
               height: 48*fem,
@@ -295,7 +293,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typeforkdashedyesH8M (184:14400)
               width: 48*fem,
               height: 48*fem,

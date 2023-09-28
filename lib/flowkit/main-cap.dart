@@ -1,16 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
-import 'dart:ui';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:myapp/utils.dart';
 
 class Scene extends StatelessWidget {
+  const Scene({super.key});
+
   @override
   Widget build(BuildContext context) {
     double baseWidth = 800;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
-    return Container(
+    return SizedBox(
       width: double.infinity,
       child: Container(
         // maincapjfP (184:14122)
@@ -22,7 +20,7 @@ class Scene extends StatelessWidget {
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Container(
+            SizedBox(
               // typediscshowingyes28h (184:14081)
               width: 16*fem,
               height: 16*fem,
@@ -35,7 +33,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typediscshowingnovjs (184:14082)
               width: 16*fem,
               height: 16*fem,
@@ -48,7 +46,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typecircleshowingyesefs (184:14085)
               width: 16*fem,
               height: 16*fem,
@@ -61,7 +59,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typecircleshowingnoNrm (184:14086)
               width: 16*fem,
               height: 16*fem,
@@ -74,7 +72,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typearrowshowingyesJkR (184:14089)
               width: 16*fem,
               height: 16*fem,
@@ -87,7 +85,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typearrowshowingnoEty (184:14090)
               width: 16*fem,
               height: 16*fem,
@@ -100,7 +98,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typediamondshowingyesAGq (184:14093)
               width: 16*fem,
               height: 16*fem,
@@ -113,7 +111,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typediamondshowingnogW5 (184:14094)
               width: 16*fem,
               height: 16*fem,
@@ -126,7 +124,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typetapshowingyesCzD (184:14097)
               width: 16*fem,
               height: 16*fem,
@@ -139,7 +137,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typetapshowingno7rH (184:14099)
               width: 16*fem,
               height: 16*fem,
@@ -152,7 +150,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typeswipeshowingyesebK (184:14102)
               width: 16*fem,
               height: 16*fem,
@@ -165,7 +163,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typeswipeshowingnoZyB (184:14106)
               width: 16*fem,
               height: 16*fem,
@@ -178,7 +176,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typearrowshowingyesg2D (184:14110)
               width: 16*fem,
               height: 16*fem,
@@ -191,7 +189,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typearrowshowingnoaNV (184:14113)
               width: 16*fem,
               height: 16*fem,
@@ -204,7 +202,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typearrowshowingyesu9s (184:14116)
               width: 16*fem,
               height: 16*fem,
@@ -217,7 +215,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typearrowshowingnoRe1 (184:14119)
               width: 16*fem,
               height: 16*fem,

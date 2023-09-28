@@ -1,26 +1,24 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
-import 'dart:ui';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:myapp/utils.dart';
 
 class Scene extends StatelessWidget {
+  const Scene({super.key});
+
   @override
   Widget build(BuildContext context) {
     double baseWidth = 521.9478759766;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
-    return Container(
+    return SizedBox(
       width: double.infinity,
       child: Container(
         // frontviewuLd (152:1463)
         padding: EdgeInsets.fromLTRB(99.79*fem, 125.84*fem, 99.71*fem, 126.25*fem),
         width: double.infinity,
         height: 847.68*fem,
-        decoration: BoxDecoration (
+        decoration: const BoxDecoration (
           color: Color(0x00c4c4c4),
         ),
-        child: Container(
+        child: SizedBox(
           // phonefacenQR (152:1465)
           width: double.infinity,
           height: double.infinity,

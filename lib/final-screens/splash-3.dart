@@ -1,22 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
-import 'dart:ui';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/utils.dart';
 
 class Scene extends StatelessWidget {
+  const Scene({super.key});
+
   @override
   Widget build(BuildContext context) {
     double baseWidth = 375;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
-    return Container(
+    return SizedBox(
       width: double.infinity,
       child: Container(
         // splash3iHw (162:7264)
         padding: EdgeInsets.fromLTRB(14.5*fem, 220*fem, 14.5*fem, 43.38*fem),
         width: double.infinity,
-        decoration: BoxDecoration (
+        decoration: const BoxDecoration (
           color: Color(0xffffc107),
         ),
         child: Column(
@@ -46,7 +45,7 @@ class Scene extends StatelessWidget {
                   fontSize: 13*ffem,
                   fontWeight: FontWeight.w400,
                   height: 1.5384615385*ffem/fem,
-                  color: Color(0xff161616),
+                  color: const Color(0xff161616),
                 ),
               ),
             ),
@@ -63,8 +62,8 @@ class Scene extends StatelessWidget {
                     padding: EdgeInsets.fromLTRB(132.5*fem, 12.66*fem, 132.5*fem, 12.66*fem),
                     width: double.infinity,
                     decoration: BoxDecoration (
-                      border: Border.all(color: Color(0xffe2e2e2)),
-                      color: Color(0xffffffff),
+                      border: Border.all(color: const Color(0xffe2e2e2)),
+                      color: const Color(0xffffffff),
                       borderRadius: BorderRadius.circular(46*fem),
                     ),
                     child: Row(
@@ -92,7 +91,7 @@ class Scene extends StatelessWidget {
                               fontSize: 14*ffem,
                               fontWeight: FontWeight.w500,
                               height: 1.5714285714*ffem/fem,
-                              color: Color(0xff161616),
+                              color: const Color(0xff161616),
                             ),
                           ),
                         ),
@@ -108,7 +107,7 @@ class Scene extends StatelessWidget {
                       fontSize: 13*ffem,
                       fontWeight: FontWeight.w400,
                       height: 1.5384615385*ffem/fem,
-                      color: Color(0xff161616),
+                      color: const Color(0xff161616),
                     ),
                   ),
                 ],
@@ -128,7 +127,7 @@ class Scene extends StatelessWidget {
                     fontWeight: FontWeight.w400,
                     height: 1.8181818182*ffem/fem,
                     letterSpacing: -0.4079999924*fem,
-                    color: Color(0xff161616),
+                    color: const Color(0xff161616),
                   ),
                   children: [
                     TextSpan(
@@ -139,7 +138,7 @@ class Scene extends StatelessWidget {
                         fontWeight: FontWeight.w400,
                         height: 1.8181818182*ffem/fem,
                         letterSpacing: -0.4079999924*fem,
-                        color: Color(0xff161616),
+                        color: const Color(0xff161616),
                       ),
                     ),
                     TextSpan(
@@ -151,8 +150,8 @@ class Scene extends StatelessWidget {
                         height: 1.8181818182*ffem/fem,
                         letterSpacing: -0.4079999924*fem,
                         decoration: TextDecoration.underline,
-                        color: Color(0xff161616),
-                        decorationColor: Color(0xff161616),
+                        color: const Color(0xff161616),
+                        decorationColor: const Color(0xff161616),
                       ),
                     ),
                     TextSpan(
@@ -163,7 +162,7 @@ class Scene extends StatelessWidget {
                         fontWeight: FontWeight.w400,
                         height: 1.8181818182*ffem/fem,
                         letterSpacing: -0.4079999924*fem,
-                        color: Color(0xff161616),
+                        color: const Color(0xff161616),
                       ),
                     ),
                     TextSpan(
@@ -175,8 +174,8 @@ class Scene extends StatelessWidget {
                         height: 1.8181818182*ffem/fem,
                         letterSpacing: -0.4079999924*fem,
                         decoration: TextDecoration.underline,
-                        color: Color(0xff161616),
-                        decorationColor: Color(0xff161616),
+                        color: const Color(0xff161616),
+                        decorationColor: const Color(0xff161616),
                       ),
                     ),
                     TextSpan(
@@ -187,7 +186,7 @@ class Scene extends StatelessWidget {
                         fontWeight: FontWeight.w400,
                         height: 1.8181818182*ffem/fem,
                         letterSpacing: -0.4079999924*fem,
-                        color: Color(0xff161616),
+                        color: const Color(0xff161616),
                       ),
                     ),
                   ],

@@ -1,18 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
-import 'dart:ui';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:myapp/utils.dart';
 
 class Scene extends StatelessWidget {
+  const Scene({super.key});
+
   @override
   Widget build(BuildContext context) {
     double baseWidth = 1844;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
-    return Container(
+    return SizedBox(
       width: double.infinity,
-      child: Container(
+      child: SizedBox(
         // colouroptions1sP (102:125)
         width: double.infinity,
         height: 1719*fem,
@@ -20,7 +18,7 @@ class Scene extends StatelessWidget {
           // switchAkH (185:2700)
           width: double.infinity,
           height: double.infinity,
-          decoration: BoxDecoration (
+          decoration: const BoxDecoration (
             color: Color(0xffffffff),
           ),
           child: Stack(
@@ -59,7 +57,7 @@ class Scene extends StatelessWidget {
                 // autogroupwal9JED (5GczKGexy1GZkXbmceWaL9)
                 left: 40*fem,
                 top: 71*fem,
-                child: Container(
+                child: SizedBox(
                   width: 379*fem,
                   height: 594*fem,
                   child: Column(
@@ -83,7 +81,7 @@ class Scene extends StatelessWidget {
                           style: TextButton.styleFrom (
                             padding: EdgeInsets.zero,
                           ),
-                          child: Container(
+                          child: SizedBox(
                             width: 51*fem,
                             height: 31*fem,
                             child: Image.asset(
@@ -119,7 +117,7 @@ class Scene extends StatelessWidget {
                           style: TextButton.styleFrom (
                             padding: EdgeInsets.zero,
                           ),
-                          child: Container(
+                          child: SizedBox(
                             width: 51*fem,
                             height: 31*fem,
                             child: Image.asset(
@@ -136,7 +134,7 @@ class Scene extends StatelessWidget {
                         style: TextButton.styleFrom (
                           padding: EdgeInsets.zero,
                         ),
-                        child: Container(
+                        child: SizedBox(
                           width: 51*fem,
                           height: 31*fem,
                           child: Image.asset(

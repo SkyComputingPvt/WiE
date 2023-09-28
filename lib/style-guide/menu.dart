@@ -1,23 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
-import 'dart:ui';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:myapp/utils.dart';
 
 class Scene extends StatelessWidget {
+  const Scene({super.key});
+
   @override
   Widget build(BuildContext context) {
     double baseWidth = 209;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
-    return Container(
+    return SizedBox(
       width: double.infinity,
       child: Container(
         // menu7vH (187:5978)
         padding: EdgeInsets.fromLTRB(20*fem, 20*fem, 20*fem, 20*fem),
         width: double.infinity,
         decoration: BoxDecoration (
-          border: Border.all(color: Color(0xff7b61ff)),
+          border: Border.all(color: const Color(0xff7b61ff)),
           borderRadius: BorderRadius.circular(5*fem),
         ),
         child: Row(
@@ -35,7 +33,7 @@ class Scene extends StatelessWidget {
                   padding: EdgeInsets.fromLTRB(11*fem, 16.6*fem, 10*fem, 17.6*fem),
                   width: 65*fem,
                   height: 65*fem,
-                  decoration: BoxDecoration (
+                  decoration: const BoxDecoration (
                     color: Color(0xffffffff),
                   ),
                   child: Column(
@@ -48,7 +46,7 @@ class Scene extends StatelessWidget {
                         height: 3.67*fem,
                         decoration: BoxDecoration (
                           borderRadius: BorderRadius.circular(5.8666667938*fem),
-                          color: Color(0xff684dff),
+                          color: const Color(0xff684dff),
                         ),
                       ),
                       Container(
@@ -58,7 +56,7 @@ class Scene extends StatelessWidget {
                         height: 3.67*fem,
                         decoration: BoxDecoration (
                           borderRadius: BorderRadius.circular(5.8666667938*fem),
-                          color: Color(0xff684dff),
+                          color: const Color(0xff684dff),
                         ),
                       ),
                       Container(
@@ -67,7 +65,7 @@ class Scene extends StatelessWidget {
                         height: 3.67*fem,
                         decoration: BoxDecoration (
                           borderRadius: BorderRadius.circular(5.8666667938*fem),
-                          color: Color(0xff684dff),
+                          color: const Color(0xff684dff),
                         ),
                       ),
                     ],
@@ -84,7 +82,7 @@ class Scene extends StatelessWidget {
               child: Container(
                 width: 65*fem,
                 height: 65*fem,
-                decoration: BoxDecoration (
+                decoration: const BoxDecoration (
                   color: Color(0xffffffff),
                 ),
                 child: Stack(
@@ -100,7 +98,7 @@ class Scene extends StatelessWidget {
                           child: Container(
                             decoration: BoxDecoration (
                               borderRadius: BorderRadius.circular(5.9179725647*fem),
-                              color: Color(0xff684dff),
+                              color: const Color(0xff684dff),
                             ),
                           ),
                         ),
@@ -117,7 +115,7 @@ class Scene extends StatelessWidget {
                           child: Container(
                             decoration: BoxDecoration (
                               borderRadius: BorderRadius.circular(5.9179725647*fem),
-                              color: Color(0xff684dff),
+                              color: const Color(0xff684dff),
                             ),
                           ),
                         ),
@@ -134,7 +132,7 @@ class Scene extends StatelessWidget {
                           child: Container(
                             decoration: BoxDecoration (
                               borderRadius: BorderRadius.circular(5.9179725647*fem),
-                              color: Color(0xff684dff),
+                              color: const Color(0xff684dff),
                             ),
                           ),
                         ),

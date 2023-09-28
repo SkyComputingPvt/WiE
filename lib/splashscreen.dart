@@ -6,6 +6,8 @@ import 'package:splashscreen/splashscreen.dart';
 import 'package:wie_app/main.dart';
 
 class Splash extends StatelessWidget {
+  const Splash({super.key});
+
   @override
   Widget build(BuildContext context) {
     return SplashScreen(

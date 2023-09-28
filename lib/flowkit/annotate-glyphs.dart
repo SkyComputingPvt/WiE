@@ -1,16 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
-import 'dart:ui';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:myapp/utils.dart';
 
 class Scene extends StatelessWidget {
+  const Scene({super.key});
+
   @override
   Widget build(BuildContext context) {
     double baseWidth = 688;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
-    return Container(
+    return SizedBox(
       width: double.infinity,
       child: Container(
         // annotateglyphspCZ (184:14432)
@@ -21,7 +19,7 @@ class Scene extends StatelessWidget {
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Container(
+            SizedBox(
               // typetimeri33 (184:14414)
               width: 48*fem,
               height: 48*fem,
@@ -34,7 +32,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typehappyRCM (184:14416)
               width: 48*fem,
               height: 48*fem,
@@ -47,7 +45,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typesadjiq (184:14418)
               width: 48*fem,
               height: 48*fem,
@@ -60,7 +58,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typethumbsupTuj (184:14420)
               width: 48*fem,
               height: 48*fem,
@@ -73,7 +71,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typethumbsdownPHb (184:14422)
               width: 48*fem,
               height: 48*fem,
@@ -86,7 +84,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typenoW7K (184:14424)
               width: 48*fem,
               height: 48*fem,
@@ -99,7 +97,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typeyespth (184:14426)
               width: 48*fem,
               height: 48*fem,
@@ -112,7 +110,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typevisibleMNq (184:14428)
               width: 48*fem,
               height: 48*fem,
@@ -125,7 +123,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // typeinvisible5pd (184:14430)
               width: 48*fem,
               height: 48*fem,

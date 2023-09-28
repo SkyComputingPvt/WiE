@@ -1,22 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
-import 'dart:ui';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/utils.dart';
 
 class Scene extends StatelessWidget {
+  const Scene({super.key});
+
   @override
   Widget build(BuildContext context) {
     double baseWidth = 1600;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
-    return Container(
+    return SizedBox(
       width: double.infinity,
       child: Container(
         // coverWmw (5:4426)
         width: double.infinity,
         height: 960*fem,
-        decoration: BoxDecoration (
+        decoration: const BoxDecoration (
           color: Color(0xfff7f7f7),
         ),
         child: Stack(
@@ -36,7 +35,7 @@ class Scene extends StatelessWidget {
                       fontSize: 102.7788848877*ffem,
                       fontWeight: FontWeight.w800,
                       height: 1*ffem/fem,
-                      color: Color(0xffffc107),
+                      color: const Color(0xffffc107),
                     ),
                   ),
                 ),
@@ -57,7 +56,7 @@ class Scene extends StatelessWidget {
                       fontSize: 60.9060134888*ffem,
                       fontWeight: FontWeight.w600,
                       height: 1*ffem/fem,
-                      color: Color(0xff3d4260),
+                      color: const Color(0xff3d4260),
                     ),
                   ),
                 ),
@@ -71,10 +70,10 @@ class Scene extends StatelessWidget {
                 padding: EdgeInsets.fromLTRB(99.79*fem, 125.84*fem, 99.71*fem, 126.25*fem),
                 width: 521.95*fem,
                 height: 847.68*fem,
-                decoration: BoxDecoration (
+                decoration: const BoxDecoration (
                   color: Color(0x00c4c4c4),
                 ),
-                child: Container(
+                child: SizedBox(
                   // phonefacewXo (152:1123)
                   width: double.infinity,
                   height: double.infinity,
@@ -133,11 +132,11 @@ class Scene extends StatelessWidget {
                   width: double.infinity,
                   height: double.infinity,
                   decoration: BoxDecoration (
-                    color: Color(0xffffc107),
+                    color: const Color(0xffffc107),
                     borderRadius: BorderRadius.circular(25.0464477539*fem),
                     boxShadow: [
                       BoxShadow(
-                        color: Color(0x14060c3b),
+                        color: const Color(0x14060c3b),
                         offset: Offset(0*fem, 37.5696792603*fem),
                         blurRadius: 36.3173446655*fem,
                       ),
@@ -165,10 +164,10 @@ class Scene extends StatelessWidget {
                 padding: EdgeInsets.fromLTRB(99.79*fem, 125.84*fem, 99.71*fem, 126.25*fem),
                 width: 521.95*fem,
                 height: 847.68*fem,
-                decoration: BoxDecoration (
+                decoration: const BoxDecoration (
                   color: Color(0x00c4c4c4),
                 ),
-                child: Container(
+                child: SizedBox(
                   // phonefaceKih (5:4491)
                   width: double.infinity,
                   height: double.infinity,

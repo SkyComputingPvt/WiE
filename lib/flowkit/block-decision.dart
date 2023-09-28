@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
-import 'dart:ui';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/utils.dart';
 
 class Scene extends StatelessWidget {
+  const Scene({super.key});
+
   @override
   Widget build(BuildContext context) {
     double baseWidth = 668;
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
-    return Container(
+    return SizedBox(
       width: double.infinity,
       child: Container(
         // blockdecisionfQ5 (184:14461)
@@ -22,7 +21,7 @@ class Scene extends StatelessWidget {
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Container(
+            SizedBox(
               // dashednosolidyesP5B (184:14458)
               width: 180*fem,
               height: 180*fem,
@@ -61,7 +60,7 @@ class Scene extends StatelessWidget {
                               fontSize: 16*ffem,
                               fontWeight: FontWeight.w600,
                               height: 1.125*ffem/fem,
-                              color: Color(0xffffffff),
+                              color: const Color(0xffffffff),
                             ),
                           ),
                         ),
@@ -74,7 +73,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // dashednosolidnoqLV (184:14452)
               width: 180*fem,
               height: 180*fem,
@@ -113,7 +112,7 @@ class Scene extends StatelessWidget {
                               fontSize: 16*ffem,
                               fontWeight: FontWeight.w600,
                               height: 1.125*ffem/fem,
-                              color: Color(0xff7b61ff),
+                              color: const Color(0xff7b61ff),
                             ),
                           ),
                         ),
@@ -126,7 +125,7 @@ class Scene extends StatelessWidget {
             SizedBox(
               width: 32*fem,
             ),
-            Container(
+            SizedBox(
               // dashedyessolidnoaBb (184:14455)
               width: 180*fem,
               height: 180*fem,
@@ -165,7 +164,7 @@ class Scene extends StatelessWidget {
                               fontSize: 16*ffem,
                               fontWeight: FontWeight.w600,
                               height: 1.125*ffem/fem,
-                              color: Color(0xff7b61ff),
+                              color: const Color(0xff7b61ff),
                             ),
                           ),
                         ),
