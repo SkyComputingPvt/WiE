@@ -1,16 +1,16 @@
-# test
+## TESTER BRANCH 
+# WiE - Where is Everyone
 
-A new Flutter project.
+## About
+A Simple Chatting Application using finetuned LLMs to the user and user-user interaction.
+
+## Pre-requisites
+
+<List all requirements here like Python version, Flutter version, etc.>
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+First clone this repository from Github, as follows:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    > git clone https://github.com/bilal-aamer/WiE.git
+    > cd WiE
