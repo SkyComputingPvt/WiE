@@ -11,7 +11,7 @@ A Simple Chatting Application using finetuned LLMs to the user and user-user int
 
 First clone this repository from Github, as follows:
 
-    > git clone https://github.com/bilal-aamer/WiE.git
+    > git clone https://github.com/SkyComputingPvt/WiE.git
     > cd WiE
 
 
